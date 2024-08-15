@@ -1,0 +1,477 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Welcome to the Minecraft not Offical</title>
+    <link rel="stylesheet" href="./project.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
+    <link rel="icon" type="image/x-icon" href="/img/favcion.png">
+    
+</head>
+<body id="body">
+    <div id="fixed">
+        <header>
+            <section id="head">
+                <a href="">
+                    <img class="logo" src="https://minecraft.wiki/images/Minecraft_franchise_logo.svg?59f89" alt="logo">
+                </a>
+    
+                <ul class="nav">
+                    <li><button href="" class="button-effect" onclick="isClicked0(); Overlay()">games
+                        <i class="material-icons games">keyboard_arrow_down</i>
+                    </button></li>
+                    <li><button href="" class="button-effect" onclick="isClicked1(); Overlay()">shop
+                        <i class="material-icons shop">keyboard_arrow_down</i>
+                    </button></li>
+                    <li><button href="" class="button-effect" onclick="isClicked2(); Overlay()">community
+                        <i class="material-icons community">keyboard_arrow_down</i>
+                    </button></li>
+                    <li><button href="" class="button-effect" onclick="isClicked3(); Overlay()">support
+                        <i class="material-icons support">keyboard_arrow_down</i>
+                    </button></li>
+                </ul>
+                <li>
+                    <button href="" class="margin-right background-black button-effect" onclick="isClicked4()"><i class="material-icons count" style="font-size: 15px;">https</i>
+                        account
+                        <i class="material-icons account">keyboard_arrow_down</i>
+                    </button>
+                </li>
+    
+                
+                
+            </section>
+        </header>
+    
+        <section id="ideas" style="z-index: 4; position: absolute; background-color: rgb(26, 26, 26)">
+            <!-- GAMES -->
+            <div class="games-now">
+                <div class="list-games">
+                    <div class="name">
+                        <button onclick="gamesChoice1()" class="button-games chose">minecraft</button>
+                        <button onclick="gamesChoice2()" class="button-games">minecraft dugeons</button>
+                        <button onclick="gamesChoice3()" class="button-games">minecraft legends</button>
+                        <button onclick="gamesChoice4()" class="button-games">minecraft education</button>
+                    </div>
+                    <div class="addition">
+                        <div></div>
+                        <a href="https://www.minecraft.net/en-us/download">Go to Downloads</a>
+                        <a href="https://www.minecraft.net/en-us/redeem">Redeen a Gift Code</a>
+                    </div>
+                </div>
+                <div id="hidden-games">
+                    <div id="list-minecraft" class="hide-games appear">
+                        <div class="big">
+                            <a href="https://www.minecraft.net/en-us/about-minecraft">
+                                <img src="./img/header-bedrock.jpg" alt="minecraft">
+                                <h2>Minecraft</h2>
+                                <p>Explore your own unique world, survive the night, and create anything you can imagine!</p>
+                            </a> 
+                        </div>
+                        <div class="small">
+                            <a href="https://www.minecraft.net/en-us/marketplace">
+                                <img src="./img/marketplace.png" alt="marketplace">
+                                <h2>Marketplace</h2>
+                                <p>Keep your gameplay endlessly inventive and fun.</p>
+                            </a> 
+                        </div>
+                        <div class="small">
+                            <a href="https://www.minecraft.net/en-us/realms">
+                                <img src="./img/realms.jpg" alt="realms">
+                                <h2>Minecraft Realms</h2>
+                                <p>Play with your friends on your own personal server.</p>
+                            </a> 
+                        </div>
+                    </div>
+                    
+                    <div id="list-minecraft" class="hide-games">
+                        <div class="big">
+                            <a href="https://www.minecraft.net/en-us/about-dungeons">
+                                <img src="./img/header-dungeons.jpg" alt="dungeons">
+                                <h2>Minecraft Dungeons</h2>
+                                <p>Discover an action-adventure game inspired by classic dungeon crawlers.</p>
+                            </a> 
+                        </div>
+                        <div class="small">
+                            <a href="https://www.minecraft.net/en-us/store/minecraft-dungeons-ultimate-edition">
+                                <img src="./img/header-dungeons-ultimate.jpg" alt="">
+                                <h2>Ultimate Edition</h2>
+                                <p>Battle iconic mobs and collect legendary items.</p>
+                            </a> 
+                        </div>
+                        <div class="small">
+                            <a href="https://www.minecraft.net/en-us/store/minecraft-dungeons-ultimate-dlc">
+                                <img src="./img/header-DLC-dungeons.jpg" alt="" style="object-position: 0 0;">
+                                <h2>Ultimate DLC Bundle</h2>
+                                <p>Pick up all six DLCs with the Ultimate DLC bundle.</p>
+                            </a> 
+                        </div>
+                    </div>
+    
+                    <div id="list-minecraft" class="hide-games">
+                        <div class="big">
+                            <a href="https://www.minecraft.net/en-us/about-legends">
+                                <img src="./img/header-legends.png" alt="legends">
+                                <h2>Minecraft Legends</h2>
+                                <p>Lead your allies to defend the Overworld in this exciting action strategy game.</p>                            </p>
+                            </a> 
+                        </div>
+                        <div class="small">
+                            <a href="https://www.minecraft.net/en-us/store/legends-deluxe-edition">
+                                <img src="./img/header-legends-deluxe.png" alt="deluxe legends">
+                                <h2>Minecraft Legends Deluxe Edition</h2>
+                                <p>Raise your banner high with six additional skins!</p>
+                            </a> 
+                        </div>
+                        <div class="small">
+                            <a href="https://www.minecraft.net/en-us/store/legends-deluxe-skin-pack">
+                                <img src="./img/header-legends-skinpack.jpg" alt="legends skin pack">
+                                <h2>Deluxe Skin Pack</h2>
+                                <p>Dress your hero and their steed in fine garb.</p>
+                            </a> 
+                        </div>
+                    </div>
+    
+                    <div id="list-minecraft"class="hide-games">
+                        <div class="big">
+                            <a href="https://education.minecraft.net/">
+                                <img src="./img/header-education.jpg" alt="education">
+                                <h2>minecraft education</h2>
+                                <p>Unlock a world of learning with Minecraft Education at home and in the classroom!</p>
+                            </a> 
+                        </div>
+                        <div class="small">
+                            <a href="https://aka.ms/hourofcode">
+                                <img src="./img/header-education-AI.jpg" alt="education AI">
+                                <h2>Learn to code</h2>
+                                <p>Discover the fun of coding with a free Hour of Code lesson.</p>
+                            </a> 
+                        </div>
+                        <div class="small">
+                            <a href="https://education.minecraft.net/discover/planet-earth-3">
+                                <img src="./img/header-education-life.jpg" alt="education life">
+                                <h2>Bring science to life</h2>
+                                <p>Experience the struggle for survival in Planet Earth III DLC.</p>
+                            </a> 
+                        </div>
+                    </div>
+                </div>
+                <div id="hidden-menu-games">
+                    <div id="menu-minecraft" class="menu-games appear">
+                        <a style="color: #00cc00;" href="https://www.minecraft.net/en-us/store/minecraft-deluxe-collection-pc">Buy Minecraft</a>
+                        <a href="https://www.minecraft.net/en-us/marketplace/marketplace-pass">Marketplace Pass</a>
+                        <a href="https://www.minecraft.net/en-us/minecraft-tips-for-beginners">New to Minecraft?</a>
+                        <a href="https://www.minecraft.net/en-us/servers">Servers</a>
+                        <a href="https://www.minecraft.net/en-us/free-trial">Try Minecraft Free</a>
+                        <a href="https://classic.minecraft.net/">Play Minecraft Classic</a>
+                    </div>
+                    <div id="menu-minecraft" class="menu-games">
+                        <a href="https://www.minecraft.net/en-us/store/minecraft-dungeons-ultimate-edition" style="color: rgb(247, 176, 25);">Buy Minecraft Dungeons</a>
+                    </div>
+                    <div id="menu-minecraft" class="menu-games">
+                        <a href="https://www.minecraft.net/en-us/store/legends-deluxe-edition" style="color: rgb(0, 247, 255);">Buy Minecraft Legends</a>
+                    </div>
+                    <div id="menu-minecraft" class="menu-games">
+                        <a style="color: #00cc00;" href="https://education.minecraft.net/get-started/download">Download Demo</a>
+                        <a href="https://education.minecraft.net/schools-reinventing-cities">Design Greener Cities</a>
+                        <a href="https://education.minecraft.net/discover/cyber-and-digital-safety">Learn Online Safety</a>
+                        <a href="https://education.minecraft.net/get-started/parents">For Parents</a>
+                        <a href="https://education.minecraft.net/get-started/educators">For Educators</a>
+                        <a href="https://education.minecraft.net/licensing">How to Buy</a>
+                    </div>
+                </div>
+            </div>
+            <!-- ANNIMATION MAY WORKS IF USE HEIGHT FOR ALL -->
+    
+    </div>
+    <div id="overlayall"></div>
+    <div id="content">
+            <div class="flex">
+                <div>
+                    <div class="slideshow">
+                        <img class="img img-1 show" src="/img/1.jpg" alt="img">
+                        <img class="img img-2" src="/img/3.jpg" alt="img">
+                        <img class="img img-3" src="/img/4.jpg" alt="img">
+                        <img class="img img-4" src="/img/5.jpg" alt="img"> 
+                        <img class="img img-5" src="/img/6.jpg" alt="img">
+                    </div>
+                </div>
+                <div class="black-foot">
+                    <div class="minecraft">
+                        <h2 style="text-transform: capitalize; font-size: 35px;" class="title">minecraft: java & bedrock</h2>
+                        <p>With new games, new update, and new way to play, join one of the biggest communities in gaming and start crafting today!</p> 
+                        <div class="sub">
+                            <a href="https://www.minecraft.net/en-us/store/minecraft-deluxe-collection-pc" style="text-decoration: none;">
+                                <button class="get-minecraft" style="text-transform: uppercase;">get minecraft
+                                    <i class="material-icons" style="font-size: 35px; margin-left: 20px;">keyboard_arrow_right</i>
+                                </button>
+                            </a>
+                            
+                            <a href="https://www.minecraft.net/en-us/about-minecraft" class="learn-more">Learn more
+                                <i class="material-icons" style="font-size: 20px;">launch</i>
+                            </a>
+                        </div>
+                    </div>
+                    <div class="available">
+                        <p style="padding-right: 20px;">Popular on </p>
+                        <img src="./img/window.png" alt="window" style="width: 60px;">
+                        <img src="./img/playstation.png" alt="playstation" style="width: 90px; margin-left: 20px;">
+                        <img src="./img/ios.png" alt="ios" style="width: 100px;">
+                        <img src="./img/android.png" alt="android" style="width: 70px; margin-left: 10px;">
+                    </div>
+                </div>
+            </div>
+    </div>
+
+    <div id="discover" style="font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif">
+            <h1 style="margin-top: 0px; padding-top: 50px; text-transform: uppercase; margin-bottom: 50px; color: whitesmoke;">discover our games</h1>
+            <div id="games">
+                <a href="https://www.minecraft.net/en-us/about-minecraft">
+                    <div class="bedrock bottom">
+                        <img src="./img/bedrock.png" alt="java & bedrock edition">
+                        <div>
+                            <h2>minecraft</h2>
+                            <p>sandbox survival, adventure</p>
+                            <p>single-player + multiplay</p>
+                        </div>
+                    </div>
+                </a>
+                
+                <a href="https://www.minecraft.net/en-us/about-dungeons">
+                    <div class="dungeons bottom">
+                        <img src="./img/dungeons.jpg" alt="dungeons edition">
+                        <div>
+                            <h2>minecraft dungeons</h2>
+                            <p>dungeon crawl, action RPG</p>
+                            <p>single-player + multiplay</p>
+                        </div>
+                    </div>
+                </a>
+                
+                <a href="https://www.minecraft.net/en-us/about-legends">
+                    <div class="legends bottom">
+                        <img src="./img/legends.jpg" alt="legends edition">
+                        <div>
+                            <h2>minecraft legends</h2>
+                            <p>action RPG, strategy</p>
+                            <p>single-player + multiplay</p>
+                        </div>
+                    </div>
+                </a>
+                
+                <a href="https://education.minecraft.net/">
+                    <div class="education bottom">
+                        <img src="./img/education.jpg" alt="education edition">
+                        <div>
+                            <h2>minecraft education</h2>
+                            <p>education, sandbox survival, adventure</p>
+                            <p>single-player + multiplay</p>
+                        </div>
+                    </div>
+                </a>
+                
+            </div>
+            <h1 style="text-transform: uppercase; color: whitesmoke; padding-bottom: 0px; margin-bottom: 0px; margin-top: 33px;">minecraft editions</h1>
+    </div>
+    
+    <div id="about">
+            
+            <div id="things">
+                <div class="line">
+                    <div class="friendly flexbox" style="margin-top: -20px;">
+                        <div>
+                            <img src="./img/friendly.png" alt="friendly community">
+                            <h2 class="upper">friendly community</h2>
+                        </div>
+                        <p class="cool">Over 160M peolpe in our community.</p>
+                        <p class="cool">Join and networking!</p>
+                    </div>
+                    <div class="entertaining flexbox" style="margin-top: 50px;">
+                        <div>
+                            <img src="./img/entertaining.png" alt="entertaining helthily" style="width: 140px; height: 140px; margin-bottom: -15px;">
+                            <h2 class="upper">entertaining healthily</h2>
+                        </div>
+                        <p class="cool">Broaden knowledge by games?</p>
+                        <p class="cool">Download and find out!</p>
+                    </div>
+                </div>
+            </div>
+            <h1 class="right-here">it's all right here</h1>
+            <div id="things">
+                <div class="line">
+                    <div class="reality flexbox" style="margin-top: -20px;">
+                        <div>
+                            <img src="./img/reality.png" alt="reality gameplay">
+                            <h2 class="upper">reality gameplay</h2>
+                        </div>
+                        <p class="cool">Real life features in games.</p>
+                        <p class="cool">Execiting way to explore!</p>
+                    </div>
+                    <div class="unlimited flexbox" style="margin-top: 60px;">
+                        <div>
+                            <img src="./img/adventure.png" alt="unlimited experience" style="margin-bottom: 5px;">
+                            <h2 class="upper">unlimited experience</h2>
+                        </div>
+                        <p class="cool">A world where you can do everything.</p>
+                        <p class="cool">Challenges and creativity are yours!</p>
+                    </div>
+                </div>
+            </div>
+    </div>  
+        
+
+    <footer style="color: white;">
+            <div id="follow">
+                <h2 style="margin: 0; text-transform: uppercase; font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif; letter-spacing: 0.3em; font-size: 28px; color: rgb(230, 228, 228);">follow minecraft</h2>
+                <div id="media">
+                        <div style=" margin-top: 10px;" class="div-hover1 div">
+                            <a href="https://www.youtube.com/@minecraft" style="display: block; width: 35px; height: 35px;">
+                                <img src="./img/youtube.png" alt="youtube" style="width: 35px;">
+                            </a>
+                        </div>
+                            
+                        <div style=" margin-top: 10px;" class="div-hover2 div">
+                            <a href="https://www.instagram.com/minecraft/" style="display: block; width: 35px; height: 35px;">
+                                <img src="./img/instagram.png" alt="instagram" style="width: 30px; margin-top: 2px;">
+                            </a>
+                        </div>    
+                        <div style=" margin-top: 10px;" class="div-hover3 div">
+                            <a href="https://www.facebook.com/minecraft" style="display: block; width: 35px; height: 35px;">
+                                <img src="./img/facebook.png" alt="facebook" style="width: 38px; margin-top: 3px;">
+                            </a>
+                        </div>    
+                        <div style="background-color: black; margin-right: 10px; margin-left: 3px; width: 35px; height: 35px;">
+                            <a href="https://x.com/Minecraft"><img src="./img/twitter.png" alt="twitter" style="width: 42px; border-radius: 50%; padding: 1.5px; margin-top: 10px; margin-left: 5px;"  class="div-hover4 twitter"></a>
+                        </div>    
+                        <div style=" margin-top: 10px; margin-left: 25px;" class="div-hover5 div">
+                            <a href="https://www.reddit.com/r/Minecraft/" style="display: block; width: 35px; height: 35px;">
+                                <img src="./img/reddit.png" alt="reddit" style="width: 35px;">
+                            </a>
+                        </div>    
+                        
+                        
+                        
+                </div>
+            </div>
+            <div id="more">
+                <div id="mojang">
+                    <div id="production">
+                        <img src="./img/mojang.png" alt="mojang" style="width: 125px;">
+                        <img src="./img/xbox.png" alt="xbox game studio" style="width: 270px;">
+                    </div>
+                    <p style="color: rgba(182, 180, 180, 0.993); font-size: 15px; letter-spacing: .03em;">© 2024 Mojang AB. TM Microsoft Corporation.</p>
+                    <a href="https://www.minecraft.net/usage-guidelines" class="green">Minecraft Usage Guidelines</a>
+                    <div class="email">
+                        <form id="form-element">
+                            
+                            <input type="text" id="mail" placeholder="EMAIL ADDRESS*">
+                            <button onclick="checkEmail()" id="subscribe">SUBSCRIBE</button>
+                            
+                            <div style="margin-top: 20px;">
+                                <div style="display: flex; align-items: flex-start;">
+                                    <input id="terms" type="checkbox" style="width: 20px; height: 20px; margin: 0;">
+                                    <label for="terms" style="text-transform: none; padding-left: 10px; width: 410px;" class="yes">Yes, I want to receive emails about products, news, and more from the Minecraft not Offical* . Read our 
+                                        <a href="https://www.minecraft.net/en-us/privacy/gdpr" class="privacy yes">privacy policy</a>
+                                    </label>
+                                </div>
+                                
+                            </div>     
+                        </form>
+                    </div>
+                    
+                </div>
+                <div id="games-community" style="display: flex; flex-direction: column;">
+                    <h2>games</h2>
+                    <a href="https://www.minecraft.net/en-us/about-minecraft" class="green">minecraft</a>
+                    <a href="https://www.minecraft.net/en-us/about-dungeons" class="green">minecraft dugeons</a>
+                    <a href="https://www.minecraft.net/en-us/about-legends" class="green">minecraft legends</a>
+                    <a href="https://education.minecraft.net/" class="green">minecraft education</a> 
+                    <h2>community</h2>
+                    <a href="https://www.minecraft.net/en-us/community" class="green">community</a>
+                    <a href="https://www.minecraft.net/en-us/creator" class="green">creator learning portal</a>
+                    <a href="https://www.minecraft.net/mojang-careers" class="green">mojang studios carees</a>
+                    <a href="https://minecraft.net/build-a-better-world" class="green">build a better world</a>
+                </div>
+                <div id="shop-support-account" style="display: flex; flex-direction: column;">
+                    <h2>shop</h2>
+                    <a href="https://www.minecraft.net/en-us/catalog" class="green">marketplace</a>
+                    <a href="https://shop.minecraft.net/" class="green">minecraft shop</a>
+                    <h2>support</h2>
+                    <a href="https://www.minecraft.net/minecraft-tips-for-beginners" class="green">tips for beginners</a>
+                    <a href="https://help.minecraft.net/" class="green">discussions & help</a>
+                    <a href="https://feedback.minecraft.net/" class="green">feedback</a>
+                    <a href="https://www.minecraft.net/en-us/sitemap" class="green">site map </a>
+                    <a href="https://www.minecraft.net/en-us/download" class="green">download</a>
+                    <a href="https://help.minecraft.net/hc/en-us/articles/4408904068621-Feedback-and-Fan-Mail" class="green">contact us</a>
+                    <h2>account </h2>
+                    <a href="https://www.minecraft.net/profile" class="green">profile</a>
+                    <a href="https://www.minecraft.net/en-us/redeem" class="green">redeem</a>     
+                </div>
+                <div id="violence">
+                    <img src="./img/Fantasy.png" alt="fantasy violence" style="width: 280px; margin-top: 30px;">
+                </div>
+            </div>
+            <section>
+                <div id="language">
+                    <ul class="language">
+                        <li><a href="https://www.minecraft.net/en-us">English</a></li>
+                        <li><a href="https://www.minecraft.net/da-dk">Dansk</a></li>
+                        <li><a href="https://www.minecraft.net/de-de">Deutsch</a></li>
+                        <li><a href="https://www.minecraft.net/es-es">Español</a></li>
+                        <li><a href="https://www.minecraft.net/es-mx">Español de Mexico</a></li>
+                        <li><a href="https://www.minecraft.net/fi-fi">Suomi</a></li>
+                        <li><a href="https://www.minecraft.net/fr-ca">Français (Canada)</a></li>
+                        <li><a href="https://www.minecraft.net/fr-fr">Français (France)</a></li>
+                        <li><a href="https://www.minecraft.net/it-it">Italiano</a></li>
+                        <li><a href="https://www.minecraft.net/ja-jp">日本語</a></li>
+                        <li><a href="https://www.minecraft.net/ko-kr">한국어</a></li>
+                        <li><a href="https://www.minecraft.net/nb-no">Norsk (Bokmål)</a></li>
+                        <li><a href="https://www.minecraft.net/nl-nl">Nederlands</li>
+                        <li><a href="https://www.minecraft.net/pl-pl">Polski</a></li>
+                        <li><a href="https://www.minecraft.net/pt-br">Português Brasileiro</a></li>
+                        <li><a href="https://www.minecraft.net/pt-pt">Português</a></li>
+                        <li><a href="https://www.minecraft.net/ru-ru">Русский</a></li>
+                        <li><a href="https://www.minecraft.net/sv-se">Svenska</a></li>
+                        <li><a href="https://www.minecraft.net/tr-tr">Türkiye</a></li>
+                        <li><a href="https://www.minecraft.net/zh-hans">简体中文</a></li>
+                        <li style="padding-right: 30px;"><a href="https://www.minecraft.net/zh-hant">繁體中文</li></a>
+                    </ul>
+                </div>
+                <div id="microsoft">
+                    <button onclick="toggleTransi()" style="background-color: #3d3d3d; border: none;">
+                        <div style="display: flex; align-items: center; color: white; margin-left: 50px;">
+                            <img src="./img/global.png" alt="global" style="width: 25px">
+                            <p style="padding-left: 10px; padding-right: 5px; font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif; font-size: 16px;">English</p>
+                            <i class="material-icons keyboard">keyboard_arrow_up</i>
+                        </div>
+                    </button>
+                    
+                    <div class="stuff" style="margin-left: 120px;">
+                        <a href="https://go.microsoft.com/fwlink/?linkid=521839" class="margin">Privacy and Cookies</a>
+                        <a href="https://minecraft.net/eula" class="margin">Terms of use</a>
+                        <a href="https://www.microsoft.com/trademarks" class="margin">Trademarks</a>
+                        <a href="https://choice.microsoft.com/" class="margin">About our ads</a>
+                        <p class="margin" style="text-decoration: none;">© 2024 Microsoft</p>
+                    </div>
+                    <a href="https://www.microsoft.com/" style="color: whitesmoke; text-decoration: none;">
+                        <div style="display: flex; align-items: center; margin-right: 170px;">
+                            <img src="./img/microsoft.png" alt="microsoft" style="width: 30px;">
+                            <p style="margin: 0; padding-left: 5px; font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif; font-size: 19px; letter-spacing: .02em;">Microsoft</p>
+                        </div>
+                    </a>
+                    
+                </div>
+            </section>
+            
+    </footer>
+    
+    
+    <script src="./slider.js"></script>
+    <script src="./sticky_header.js"></script>
+    <script src="./button_clicked.js"></script>
+    <script src="./email_check.js"></script>
+    <script src="./languages_change.js"></script>
+    <script src="./header_button.js"></script>
+</body>
+</html>
